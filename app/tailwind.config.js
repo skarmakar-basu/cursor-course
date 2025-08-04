@@ -16,45 +16,46 @@ module.exports = {
   	},
   	extend: {
   		colors: {
-  			border: 'hsl(var(--border))',
-  			input: 'hsl(var(--input))',
-  			ring: 'hsl(var(--ring))',
-  			background: 'hsl(var(--background))',
-  			foreground: 'hsl(var(--foreground))',
-  			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
-  			},
-  			secondary: {
-  				DEFAULT: 'hsl(var(--secondary))',
-  				foreground: 'hsl(var(--secondary-foreground))'
-  			},
-  			destructive: {
-  				DEFAULT: 'hsl(var(--destructive))',
-  				foreground: 'hsl(var(--destructive-foreground))'
-  			},
-  			muted: {
-  				DEFAULT: 'hsl(var(--muted))',
-  				foreground: 'hsl(var(--muted-foreground))'
-  			},
-  			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
+  			// Linear-inspired design system colors
+  			background: '#0E0E10',
+  			foreground: '#FFFFFF',
+  			card: {
+  				DEFAULT: '#1C1C1E',
+  				foreground: '#FFFFFF'
   			},
   			popover: {
-  				DEFAULT: 'hsl(var(--popover))',
-  				foreground: 'hsl(var(--popover-foreground))'
+  				DEFAULT: '#1C1C1E',
+  				foreground: '#FFFFFF'
   			},
-  			card: {
-  				DEFAULT: 'hsl(var(--card))',
-  				foreground: 'hsl(var(--card-foreground))'
+  			primary: {
+  				DEFAULT: '#3B82F6',
+  				foreground: '#FFFFFF'
   			},
+  			secondary: {
+  				DEFAULT: '#1C1C1E',
+  				foreground: '#FFFFFF'
+  			},
+  			muted: {
+  				DEFAULT: '#2A2A2D',
+  				foreground: '#A1A1AA'
+  			},
+  			accent: {
+  				DEFAULT: '#6366F1',
+  				foreground: '#FFFFFF'
+  			},
+  			destructive: {
+  				DEFAULT: '#EF4444',
+  				foreground: '#FFFFFF'
+  			},
+  			border: '#2A2A2D',
+  			input: '#0E0E10',
+  			ring: '#6366F1',
   			chart: {
-  				'1': 'hsl(var(--chart-1))',
-  				'2': 'hsl(var(--chart-2))',
-  				'3': 'hsl(var(--chart-3))',
-  				'4': 'hsl(var(--chart-4))',
-  				'5': 'hsl(var(--chart-5))'
+  				'1': 'hsl(12 76% 61%)',
+  				'2': 'hsl(173 58% 39%)',
+  				'3': 'hsl(197 37% 24%)',
+  				'4': 'hsl(43 74% 66%)',
+  				'5': 'hsl(27 87% 67%)'
   			}
   		},
   		borderRadius: {
