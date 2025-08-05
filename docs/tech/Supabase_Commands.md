@@ -39,7 +39,7 @@ npx supabase db dump --table http_request_queue
 npx supabase functions new my-function
 
 # Deploy edge function
-npx supabase functions deploy my-function
+npx supabase functions deploy my-function --import-map ./supabase/functions/import_map.json --no-verify-jwt
 
 # Test edge function locally
 npx supabase functions serve

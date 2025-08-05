@@ -23,6 +23,12 @@ Used for creating, and testing edge functions. Mention each step so I know you'r
 
 4. Evaluate the results, and mention next steps.
 
+5. Quote if the  user mentioned to deploy it. 
+
+npx supabase functions deploy my-function --import-map ./supabase/functions/import_map.json --no-verify-jwt
+
+6. CURL call the edge function to see if you get any response. 500 is ok.
+
 # supabase functions serve
 Serve all Functions locally.
 
